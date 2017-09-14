@@ -11,6 +11,9 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	
+	Only add one logical change to the staging area at once, then commit.
+	To check for the differences between staging area and repository, use 'git diff --staged'
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
